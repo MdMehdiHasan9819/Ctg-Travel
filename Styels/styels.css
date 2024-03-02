@@ -187,25 +187,35 @@ line-height: 26px;
 .img-on-text img{
     max-width: 100%;
     height: auto;
+    padding-bottom: 10px;
 }
 .Your-Desti-img-one{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0px;
+
 }
 
 .Your-Desti-img-two{
     display: grid;
     grid-template-columns: 374px 474px 274px;
     gap: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0px;
 }
 .Your-Desti-img-three{
     display: grid;
     grid-template-columns: 473px 673px;
     gap: 20px;
+    padding: 20px 0px;
 }
+.img-text {
+    position: absolute;
+    top: 22%;
+    left: 30%;
+}
+/* Why-Choose-Us */
+
 
 /* small device and tablet device media query */
 
@@ -259,8 +269,40 @@ line-height: 26px;
         width: 270px;
         color: rgba(19, 19, 24, 0.50);
     }
+    /* our popular tour */
+    .our-popular-tour {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        padding: 50px 40px;
+        text-align: center
+    }
+    .our-popular-button{
+        
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+    
+    /* your destination media query */
+    .Your-Desti-img-one {
+        padding: 0px 40px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    
+    }
+    .Your-Desti-img-two {
+        padding: 0px 40px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
 
-};
+    .Your-Desti-img-three {
+        padding: 0px 40px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .img-on-text img {
+    width: 400px;
+    }
 
 
 /* tablet and medium screen media query */
