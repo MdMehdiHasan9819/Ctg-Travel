@@ -377,6 +377,37 @@ line-height: 26px;
     width: 400px;
     }
 
+    /* why-choose us media query */
+
+    .why-choose-us-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .why-choose-box1 {
+        width: 300px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .why-choose-box2 {
+        width: 300px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .why-choose-box3 {
+        width: 300px;
+        height: 250px;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 /* tablet and medium screen media query */
 
